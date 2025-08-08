@@ -1,14 +1,14 @@
-import { Header } from './Components/Header';
-import CVForm from './Components/CVForm';
+import { Header } from './сomponents/Header';
+import CVForm from './сomponents/CVForm';
 import './App.css';
 
 function App() {
-    return (
-        <>
-            <Header />
-            <CVForm />
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <CVForm />
+    </>
+  );
 }
 
 export default App;
